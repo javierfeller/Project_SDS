@@ -1,0 +1,27 @@
+name: project_sds
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.12
+
+  # core data
+  - numpy
+  - pandas
+  - requests
+
+  # geospatial
+  - geopandas
+  - folium
+  - contextily
+
+  # plotting
+  - matplotlib
+
+  # extras
+  - cmcrameri
+  - tqdm
+
+  # notebook
+  - jupyterlab
+  - ipykernel
